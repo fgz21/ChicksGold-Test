@@ -12,8 +12,7 @@ The skills I used in this project include: HTML, CSS, and React.JS.
 - 1: intall GIT and node.js and vite 
 - 2: open cmd or used Bash. 
 - 3: go and select the folder -> cd>desing-chickgold
-- 3: npm install (this install Dependence).
-- 4: npm run dev.
+- 4: npm run preview.
 
 that all.
 
