@@ -5,9 +5,7 @@
   font-family: roboto;
 }
 
-
 /* the navbar */
-
 
 .header-nav {
   background-color: #37384b;
@@ -41,13 +39,6 @@
 
 }
 
-
-/* add later 
-.nav-link:hover {
- 
-}
-
-*/
 
 /* button */
 
@@ -93,11 +84,7 @@
   color: #000;
 }
 
-
-
 /* icons */
-
-
 .arrow-icon{
   color: #fff;
   margin-left: 8px;
