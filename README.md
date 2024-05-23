@@ -10,7 +10,7 @@ The skills I used in this project include: HTML, CSS, and React.JS.
 #How run this project?, Running the Project
 
 - 1: intall GIT and node.js and vite 
-- 2: open cmd or used Bash. 
+- 2: open with cmd or used Bash. 
 - 3: go and select the folder -> cd>desing-chickgold
 - 4: npm run preview.
 
