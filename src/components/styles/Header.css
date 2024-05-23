@@ -95,28 +95,29 @@
 
 /* responsive  */
 
-
 @media only screen and (max-width: 768px) {
 
-
   .container-actions {
-    flex-wrap: wrap; 
-    justify-content: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .button-usd,
   .button-cart,
   .button-register {
-    margin: 10px 5px; 
+    margin: 10px 5px;
   }
 
-   .btn-login {
+  .btn-login {
     font-size: 14px;
-}
+  }
 
+}
 
 @media only screen and (min-width: 769px) {
   .nav-list {
+    display: flex;
     flex-direction: row;
   }
 
