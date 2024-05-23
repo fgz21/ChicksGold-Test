@@ -110,8 +110,8 @@
   align-items: flex-start; 
   margin: 0 auto; 
   max-width: 100vw;
-  height: 180vh;
-  padding: 50px;
+  height: auto;
+  padding: 20px;
 
   /* Background image styles */
   background-image: url("/CTR-header.jpg");

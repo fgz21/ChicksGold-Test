@@ -6,9 +6,6 @@ import { faCartShopping } from '@fortawesome/free-solid-svg-icons';
 import { faSackDollar } from '@fortawesome/free-solid-svg-icons';
 import { faSliders } from '@fortawesome/free-solid-svg-icons';
 
-
-
-
   const ProductCard = ({ product }) => {
     return (
       <section className="product-card">
@@ -53,7 +50,7 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
     ];
 
     return (
-
+      
       <section className="product-grid">
         <h2 className="product-title">Crash Bandicoot Items</h2>
         <section className="product-filters">
@@ -70,7 +67,6 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
           <input type="text" className="product-search" placeholder="Search" />
         </section>
 
-
        <section className="sort-container">
         <section className="sort-wrapper">
           <FontAwesomeIcon icon={faSackDollar} className="sort-icon" />
@@ -82,8 +78,6 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
           </select>
         </section>
       </section>
-
-
 
        <section className="type-container">
         <section className="type-wrapper">
@@ -97,7 +91,7 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
         </section>
       </section>
      </section>
-    
+
         <section className="product-container">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
@@ -114,10 +108,7 @@ import { faSliders } from '@fortawesome/free-solid-svg-icons';
           <a href="#">6</a>
           <a href="#">&raquo;</a>
         </div>
-        
       </section> 
-
-
   );
 };
 

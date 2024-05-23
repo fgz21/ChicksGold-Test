@@ -65,6 +65,7 @@
 
 .btn-login{
   
+  max-width: 150px; 
   background: #2BDF80;
   padding: 12px;
   border-radius: 8px;
@@ -92,3 +93,34 @@
 
 
 
+/* responsive  */
+
+
+@media only screen and (max-width: 768px) {
+
+
+  .container-actions {
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+
+  .button-usd,
+  .button-cart,
+  .button-register {
+    margin: 10px 5px; 
+  }
+
+   .btn-login {
+    font-size: 14px;
+}
+
+/* Optional: Styles for larger screens (laptops and desktops) */
+@media only screen and (min-width: 769px) {
+  .nav-list {
+    flex-direction: row; /* Make horizontal on larger screens */
+  }
+
+  .btn-login {
+    /* You can adjust padding or other styles for tablets here */
+  }
+}

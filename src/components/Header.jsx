@@ -58,8 +58,6 @@ const Header = () => {
                <FontAwesomeIcon icon={faUser} className="user-icon" />
             </a>
           </section>
-
-
         </section>
       </nav>
     </header>
