@@ -8,7 +8,7 @@
 /* the navbar */
 
 .header-nav {
-  background-color: #37384b;
+  background-color: #6BA0DE;
   padding: 20px;
   width: 100%;
   height: 15vh;
@@ -66,10 +66,10 @@
 .btn-login{
   
   max-width: 150px; 
-  background: #2BDF80;
+  background: #4E9FFF;
   padding: 12px;
   border-radius: 8px;
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -82,7 +82,7 @@
 
 .user-icon{
   margin-left: 8px;
-  color: #000;
+  color: #fff;
 }
 
 /* icons */
