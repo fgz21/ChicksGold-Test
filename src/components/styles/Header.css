@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto;
+}
+
+
+/* the navbar */
+
+
+.header-nav {
+  background-color: #37384b;
+  padding: 20px;
+  width: 100%;
+  height: 15vh;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-item {
+  display: flex; 
+  align-items: center; 
+  margin-right: 10px;
+  padding: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+
+/* add later 
+.nav-link:hover {
+ 
+}
+
+*/
+
+/* button */
+
+.container-actions {
+  display: flex; 
+  justify-content: flex-end; 
+  gap: 20px; 
+}
+
+.button-usd,
+.button-cart,
+.button-register {
+  list-style: none;
+  margin: 8px;
+
+}
+
+.button-usd a,
+.button-cart a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.btn-login{
+  
+  background: #2BDF80;
+  padding: 12px;
+  border-radius: 8px;
+  color: #000;
+  text-decoration: none;
+}
+
+
+.cart-shop{
+  margin-right: 8px;
+  color: #fff;
+
+}
+
+.user-icon{
+  margin-left: 8px;
+  color: #000;
+}
+
+
+
+/* icons */
+
+
+.arrow-icon{
+  color: #fff;
+  margin-left: 8px;
+}
+
+
+
