@@ -251,40 +251,25 @@
 /* responsive */
 
 
-@media (min-width: 768px) {
-
-  /* Reduce grid columns for tablet view */
-  .product-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  /* Adjust image width for product card */
-  .product-card img {
-    width: 50%;
-  }
-}
 
 
 @media (max-width: 768px) {
 
-  /* Switch product grid to single column for mobile */
+ 
   .product-grid {
     flex-direction: column;
   }
 
-  /* Remove grid layout for product container on mobile */
   .product-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
 
-  /* Adjust product card width for mobile */
   .product-card {
     width: 100%;
   }
 
-  /* Adjust image size and layout for mobile */
   .product-image-wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -296,7 +281,6 @@
     width: 100%;
   }
 
-  /* Adjust quantity input width for mobile */
   .quantity-input {
     width: 100%;
   }

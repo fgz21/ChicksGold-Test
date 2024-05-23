@@ -114,13 +114,10 @@
     font-size: 14px;
 }
 
-/* Optional: Styles for larger screens (laptops and desktops) */
+
 @media only screen and (min-width: 769px) {
   .nav-list {
-    flex-direction: row; /* Make horizontal on larger screens */
+    flex-direction: row;
   }
 
-  .btn-login {
-    /* You can adjust padding or other styles for tablets here */
-  }
 }
